@@ -6,15 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		986FB5C32EEBE99E007C0616 /* REAMDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 986FB5402EEAB29D007C0616 /* REAMDE.md */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		986FB4E62EE91517007C0616 /* AccessorySetupKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessorySetupKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FB4F82EE9152B007C0616 /* MyAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FB5402EEAB29D007C0616 /* REAMDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REAMDE.md; sourceTree = "<group>"; };
 		986FB5492EEBBAC1007C0616 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		986FB5EA2EEBEA35007C0616 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -81,6 +78,7 @@
 		986FB4DD2EE91517007C0616 = {
 			isa = PBXGroup;
 			children = (
+				986FB5EA2EEBEA35007C0616 /* README.md */,
 				986FB5402EEAB29D007C0616 /* REAMDE.md */,
 				986FB5492EEBBAC1007C0616 /* demo.gif */,
 				986FB5382EEA7038007C0616 /* Shared */,
@@ -190,7 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986FB5C32EEBE99E007C0616 /* REAMDE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
