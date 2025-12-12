@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		986FB5412EEAB29D007C0616 /* REAMDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 986FB5402EEAB29D007C0616 /* REAMDE.md */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		986FB4E62EE91517007C0616 /* AccessorySetupKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessorySetupKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FB4F82EE9152B007C0616 /* MyAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,12 +23,22 @@
 			);
 			target = 986FB4F72EE9152B007C0616 /* MyAccessory */;
 		};
+		986FB5C22EEBE90B007C0616 /* Exceptions for "AccessorySetupKitDemo" folder in "AccessorySetupKitDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"AccessorySetupKitDemo-Info.plist",
+			);
+			target = 986FB4E52EE91517007C0616 /* AccessorySetupKitDemo */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		986FB4E82EE91517007C0616 /* AccessorySetupKit */ = {
+		986FB4E82EE91517007C0616 /* AccessorySetupKitDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AccessorySetupKit;
+			exceptions = (
+				986FB5C22EEBE90B007C0616 /* Exceptions for "AccessorySetupKitDemo" folder in "AccessorySetupKitDemo" target */,
+			);
+			path = AccessorySetupKitDemo;
 			sourceTree = "<group>";
 		};
 		986FB4F92EE9152B007C0616 /* MyAccessory */ = {
@@ -74,7 +80,7 @@
 				986FB5402EEAB29D007C0616 /* REAMDE.md */,
 				986FB5492EEBBAC1007C0616 /* demo.gif */,
 				986FB5382EEA7038007C0616 /* Shared */,
-				986FB4E82EE91517007C0616 /* AccessorySetupKit */,
+				986FB4E82EE91517007C0616 /* AccessorySetupKitDemo */,
 				986FB4F92EE9152B007C0616 /* MyAccessory */,
 				986FB4E72EE91517007C0616 /* Products */,
 			);
@@ -105,7 +111,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				986FB4E82EE91517007C0616 /* AccessorySetupKit */,
+				986FB4E82EE91517007C0616 /* AccessorySetupKitDemo */,
 				986FB5382EEA7038007C0616 /* Shared */,
 			);
 			name = AccessorySetupKitDemo;
@@ -180,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986FB5412EEAB29D007C0616 /* REAMDE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +349,7 @@
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AccessorySetupKit-WiFiInfrastructure-Info.plist";
+				INFOPLIST_FILE = "AccessorySetupKitDemo/AccessorySetupKitDemo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,7 +361,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "itsuki.enjoy.AccessorySetupKit-WiFiInfrastructure";
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -378,7 +383,7 @@
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AccessorySetupKit-WiFiInfrastructure-Info.plist";
+				INFOPLIST_FILE = "AccessorySetupKitDemo/AccessorySetupKitDemo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -390,7 +395,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "itsuki.enjoy.AccessorySetupKit-WiFiInfrastructure";
+				PRODUCT_BUNDLE_IDENTIFIER = itsuki.enjoy.AccessorySetupKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
