@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		986FB5C32EEBE99E007C0616 /* REAMDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 986FB5402EEAB29D007C0616 /* REAMDE.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		986FB4E62EE91517007C0616 /* AccessorySetupKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessorySetupKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FB4F82EE9152B007C0616 /* MyAccessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAccessory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986FB5C32EEBE99E007C0616 /* REAMDE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
