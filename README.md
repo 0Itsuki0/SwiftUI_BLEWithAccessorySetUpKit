@@ -11,7 +11,7 @@ To test out the sample app, get two real devices, one running the BLE accessory 
 
 
 For more details on AccessorySetupKit: 
-- [SwiftUI: Pair BLE Accessory in an Easy BUT Secure Way!]()
+- [SwiftUI: Pair BLE Accessory in an Easy BUT Secure Way!](https://medium.com/@itsuki.enjoy/swiftui-pair-ble-accessory-in-an-easy-but-secure-way-a9e88b5e2f07)
 
 
 For more details on Bluetooth Low energy: 
